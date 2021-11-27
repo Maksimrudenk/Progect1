@@ -5,20 +5,31 @@ body {
   text-align: center;
 }
 .main {
-  box-shadow: 6px 6px 6px 6px rgb(58, 58, 58);
+
   width: 1000px;
-  margin: 0 auto;
-  background-color: rgb(127, 182, 150);
+  margin:  auto;
+  
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 0 ; */
 }
 .imain {
   height: 100px;
+  background-color: rgb(127, 182, 150);
+  box-shadow: 6px 6px 6px 6px rgb(58, 58, 58);
+  margin-bottom: 50px;
 }
 .head {
   height: 300px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 0 auto;
+  align-items: center;
+  margin: 0px auto;
+  background-color: rgb(127, 182, 150);
+  box-shadow: 6px 6px 6px 6px rgb(58, 58, 58);
+  margin-bottom: 50px;
 }
 .body {
   height: 85px;
