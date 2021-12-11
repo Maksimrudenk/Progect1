@@ -1,0 +1,54 @@
+div{
+    /* border: 1px solid black; */
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.price {
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.buy-bat{
+    border-radius: 15px;
+    padding: 5px 25px;
+}
+.grey {
+    color: rgb(187, 187, 187);
+}
+.metka {
+    top: 8px;
+    left: 10px;
+    border-radius: 15px;
+}
+.bi-heart {
+    color: palevioletred;
+}
+.bi-heart:hover {
+    color: red;
+}
+.grey:hover {
+    color: rgb(106, 106, 106);
+}
+.card-text:hover{
+    color: black;
+}
+.card-fot {
+    top: 5px;
+}
+.product-img{
+    height: 306px;
+}
+.nout {
+    /* object-fit: cover; */
+    width: 100%;
+}
+.carousel{
+    width: 800px;
+}
+/* .card{
+    background-color: gray;
+} */
+.carousel-control-prev,.carousel-control-next {
+    background-color: black;
+}
